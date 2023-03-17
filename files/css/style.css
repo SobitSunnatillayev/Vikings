@@ -1,0 +1,178 @@
+@import url(fonts.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed";
+}
+
+.container {
+  max-width: 1224px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header start */
+
+.header {
+  background: url(../img/header/bg.png) no-repeat center center / cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__nav {
+  padding-top: 50px;
+  padding-bottom: 58px;
+  background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header__logo {
+  margin-right: 134px;
+}
+
+.header__ul {
+  display: flex;
+  column-gap: 25px;
+  margin-right: 270px;
+  flex-wrap: wrap;
+}
+
+.header__link {
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+  transition: .4s;
+}
+
+.header__link:hover {
+  text-decoration-line: underline;
+  color: #85CCDC;
+}
+
+.header__nav2-number {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 28px;
+}
+
+.header__nav2-text {
+  font-size: 96px;
+}
+
+.header__nav2-txt {
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.header__nav2 {
+  background: #0E0E0E;
+  max-width: 1383px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 45px;
+  padding: 44px 47px 64px 35px;
+}
+
+.header__nav2-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  max-width: 1158px;
+  width: 100%;
+}
+
+/* header end */
+
+/* section start */
+
+.main {
+  padding: 100px 0;
+  background: #0E0E0E;
+}
+
+.section__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.section__number {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 112px;
+  color: #600E09;
+}
+
+.section__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section__link {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #0E0E0E;
+  max-width: 300px;
+  width: 100%;
+  padding: 12px 0;
+  opacity: 0;
+  transition: .4s;
+}
+
+.section__item {
+  margin-top: -40px;
+}
+
+.section__box {
+  max-height: 250px;
+  height: 100%;
+  max-width: 350px;
+  width: 100%;
+  position: absolute;
+  transition: .4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section__img{
+  max-width: 350px;
+  width: 100%;
+}
+
+.section__box:hover {
+  background: rgba(14, 14, 14, 0.8);
+
+}
+
+.section__box:hover .section__link {
+  opacity: 1;
+}
+
+/* section start */
